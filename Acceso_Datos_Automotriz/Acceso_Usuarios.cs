@@ -4,24 +4,26 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConectarBd;
 
 namespace Acceso_Datos_Automotriz
 {
     public class Acceso_Usuarios : IEntidades
     {
+        Base b = new Base("localhost", "root", "", "Automotriz");
         public void Borrar(dynamic Entidad)
         {
-            throw new NotImplementedException();
+            b.Comando(string.Format("call DeleteUsuario({0})", Entidad.Idusuario));
         }
 
         public void Guardar(dynamic Entidad)
         {
-            throw new NotImplementedException();
+            b.Comando(string.Format("call InsertUsuario({0},{1},{2},{3},{4},{5})", Entidad.Nombre, Entidad.Apellidop, Entidad.Apellidom, Entidad.Fechan, Entidad.Rfc, Entidad.Idusuario));
         }
 
-        public DataSet Mostrar(string filtro)
+        public DataSet Mostrar()
         {
-            throw new NotImplementedException();
+            return b.Obtener(string.Format("call ShowUsuarios()"),"Usuarios");
         }
     }
 }
