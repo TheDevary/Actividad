@@ -31,8 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Crud">
+      <HintPath>..\..\Crud\Crud\bin\Debug\Crud.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,6 +51,16 @@
     <Compile Include="Manejador_Usuarios.cs" />
     <Compile Include="IManajedor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acceso_Datos_Automotriz\Acceso_Datos_Automotriz.csproj">
+      <Project>{e003d2f9-6b48-4a57-ac95-5d87e6cfe165}</Project>
+      <Name>Acceso_Datos_Automotriz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades_Automotriz\Entidades_Automotriz.csproj">
+      <Project>{6aebbd6e-e0d9-4954-9e64-551525bbfe6b}</Project>
+      <Name>Entidades_Automotriz</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
