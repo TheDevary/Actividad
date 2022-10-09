@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Manejadores_Automotriz
 {
-    public class Class1
+    class Manejador_Taller
     {
     }
 }
