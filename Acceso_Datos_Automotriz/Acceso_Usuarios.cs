@@ -4,13 +4,14 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConectarBd;
+using ConectarBD;
 
 namespace Acceso_Datos_Automotriz
 {
     public class Acceso_Usuarios : IEntidades
     {
-        Base b = new Base("localhost", "root", "", "Automotriz");
+
+        Base b = new Base("localhost", "root", "", "automotriz");
         public void Borrar(dynamic Entidad)
         {
             b.Comando(string.Format("call DeleteUsuario({0})", Entidad.Idusuario));

@@ -96,5 +96,15 @@
       <DependentUpon>FrmTaller.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades_Automotriz\Entidades_Automotriz.csproj">
+      <Project>{6aebbd6e-e0d9-4954-9e64-551525bbfe6b}</Project>
+      <Name>Entidades_Automotriz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Manejadores_Automotriz\Manejadores_Automotriz.csproj">
+      <Project>{ec815637-332e-421d-86a9-7140e0dddd6a}</Project>
+      <Name>Manejadores_Automotriz</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

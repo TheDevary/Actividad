@@ -1,0 +1,9 @@
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\bin\Debug\Acceso_Datos_Automotriz.dll
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\bin\Debug\Acceso_Datos_Automotriz.pdb
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\bin\Debug\ConectarBd.dll
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\obj\Debug\Acceso_Datos_Automotriz.csproj.AssemblyReference.cache
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\obj\Debug\Acceso_Datos_Automotriz.csproj.CoreCompileInputs.cache
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\obj\Debug\Acceso_Datos_Automotriz.csproj.CopyComplete
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\obj\Debug\Acceso_Datos_Automotriz.dll
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\obj\Debug\Acceso_Datos_Automotriz.pdb
+C:\Users\arire\source\repos\Presentacion_Automotriz\Acceso_Datos_Automotriz\bin\Debug\ConectarBD.pdb

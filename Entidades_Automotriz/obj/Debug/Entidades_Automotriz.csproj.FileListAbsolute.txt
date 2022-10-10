@@ -1,0 +1,5 @@
+C:\Users\arire\source\repos\Presentacion_Automotriz\Entidades_Automotriz\bin\Debug\Entidades_Automotriz.dll
+C:\Users\arire\source\repos\Presentacion_Automotriz\Entidades_Automotriz\bin\Debug\Entidades_Automotriz.pdb
+C:\Users\arire\source\repos\Presentacion_Automotriz\Entidades_Automotriz\obj\Debug\Entidades_Automotriz.csproj.CoreCompileInputs.cache
+C:\Users\arire\source\repos\Presentacion_Automotriz\Entidades_Automotriz\obj\Debug\Entidades_Automotriz.dll
+C:\Users\arire\source\repos\Presentacion_Automotriz\Entidades_Automotriz\obj\Debug\Entidades_Automotriz.pdb
