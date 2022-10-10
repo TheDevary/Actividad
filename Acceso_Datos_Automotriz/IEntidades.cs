@@ -11,6 +11,6 @@ namespace Acceso_Datos_Automotriz
     {
         void Guardar(dynamic Entidad);
         void Borrar(dynamic Entidad);
-        DataSet Mostrar();
+        DataSet Mostrar(string filtro);
     }
 }

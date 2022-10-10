@@ -54,14 +54,7 @@ namespace Presentacion_Automotriz
 
         private void dtgUsuarios_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
-            fila = e.RowIndex;
-            col = e.ColumnIndex;
-            usuario.Idusuario = int.Parse(dtgUsuarios.Rows[fila].Cells[0].Value.ToString());
-            usuario.Nombre = dtgUsuarios.Rows[fila].Cells[1].Value.ToString();
-            usuario.Apellidop = dtgUsuarios.Rows[fila].Cells[2].Value.ToString();
-            usuario.Apellidom = dtgUsuarios.Rows[fila].Cells[3].Value.ToString();
-            usuario.Fechan = dtgUsuarios.Rows[fila].Cells[4].Value.ToString();
-            usuario.Rfc = dtgUsuarios.Rows[fila].Cells[5].Value.ToString();
+
         }
         void Actualizar()
         {

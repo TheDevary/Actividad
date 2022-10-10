@@ -33,9 +33,9 @@ namespace Manejadores_Automotriz
         {
             tabla.Columns.Clear();
             tabla.RowTemplate.Height = 30;
-            tabla.DataSource = au.Mostrar().Tables["Usuarios"];
-            tabla.Columns.Insert(6, g.Boton("Editar", Color.Blue));
-            tabla.Columns.Insert(7, g.Boton("Borra", Color.Red));
+            tabla.DataSource = au.Mostrar("").Tables["Usuarios"];
+            tabla.Columns.Insert(4, g.Boton("Editar", Color.Blue));
+            tabla.Columns.Insert(5, g.Boton("Borra", Color.Red));
             tabla.Columns[0].Visible = false;
         }
     }

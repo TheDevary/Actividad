@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ConectarBD;
+using ConectarBd;
 
 namespace Acceso_Datos_Automotriz
 {
@@ -21,7 +21,9 @@ namespace Acceso_Datos_Automotriz
             throw new NotImplementedException();
         }
 
-        public DataSet Mostrar()
+
+
+        public DataSet Mostrar(string filtro)
         {
             throw new NotImplementedException();
         }
